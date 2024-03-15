@@ -1,0 +1,77 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* @font-face {
+  font-family: "cookie";         // 이름 선언
+  src: url("./font/cookie.ttf"); // 내가 저장한 경로!
+}
+@font-face {
+  font-family: "gmarket";
+  src: url("./font/gmarket.ttf"); // 내가 저장한 경로!
+} */
+
+@font-face {
+  font-family: "gothic";
+  src: url("../assets/font-gothic/GothicA1-Thin.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: "gothic";
+  src: url("../assets/font-gothic/GothicA1-ExtraLight.ttf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "gothic";
+  src: url("../assets/font-gothic/GothicA1-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "gothic";
+  src: url("../assets/font-gothic/GothicA1-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "gothic";
+  src: url("../assets/font-gothic/GothicA1-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "gothic";
+  src: url("../assets/font-gothic/GothicA1-SemiBold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "gothic";
+  src: url("../assets/font-gothic/GothicA1-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "gothic";
+  src: url("../assets/font-gothic/GothicA1-ExtraBold.ttf");
+  font-weight: 800;
+}
+@font-face {
+  font-family: "gothic";
+  src: url("../assets/font-gothic/GothicA1-Black.ttf");
+  font-weight: 900;
+}
+
+body {
+  font-family: "gothic";
+}
